@@ -1,0 +1,95 @@
+.outerNavbar {
+  background-color: aquamarine;
+  height: 50vh;
+}
+.innerNavbar {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: 300;
+  width: 200px;
+  background-color: #17181b;
+  /* background-color: #1e1e1e; */
+  overflow: auto;
+  left: 0;
+  overflow-x: hidden;
+  text-align: center;
+  z-index: 999;
+  color: #777;
+  border-right: 1px solid #202226;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.imageDiv {
+  position: relative;
+}
+.name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(128, 0, 128, 0.333);
+  width: 100%;
+  color: white;
+}
+.name p {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.imageDiv img {
+  height: 100%;
+}
+.textDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  gap: 5px;
+  width: 100%;
+  transition: all 1s ease;
+}
+.navitem a {
+  width: 100%;
+  padding: 15px 0 15px 0em;
+  border-bottom: 1px solid #77777762;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.navitem:hover {
+  border-bottom: 1px solid white;
+}
+.textDiv a {
+  color: #777;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.socialDiv {
+  font-size: 20px;
+  margin-top: 4em;
+}
+.socialDiv div {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+}
+.socialDiv div a {
+  text-decoration: none;
+  color: inherit;
+}
+.socialDiv div a:hover {
+  color: white;
+}
+.socialDiv p {
+  font-size: 12px;
+}

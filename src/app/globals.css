@@ -1,0 +1,27 @@
+:root {
+  --heading: "RecoletaAlt";
+  --heading-2: "Unbounded";
+  --heading-3: "Space Grotesk", sans-serif;
+  --body-font: "Inter";
+  --body-color: #555555;
+  --base-color2: #ff3838;
+  --base-color: #6d55e9;
+  --title-color: #0e0e0e;
+  --body-bg-color: #f4eeff;
+  --hap-color: #d5abd5;
+  --hap-body-color: #b366b3;
+  --hap-title-color: #800080;
+  --footer-bg: #1e1e1e;
+  --hap-gradient-color: linear-gradient(to right, #53624e 0%, #c600ff 100%);
+  --hap-gradient-color-reverse: linear-gradient(
+    to right,
+    #c600ff 0%,
+    #007bff 100%
+  );
+  --primary-font-family: "Jost", sans-serif;
+  --heading-font-family: "Marcellus", serif;
+  --secondary-font-family: "Cagliostro", sans-serif;
+}
+body {
+  margin: 0;
+}

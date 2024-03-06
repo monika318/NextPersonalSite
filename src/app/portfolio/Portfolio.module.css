@@ -1,0 +1,21 @@
+.homeContainer {
+  margin: 0;
+  margin-left: 200px;
+  /* background-color: rgba(255, 255, 255, 0.2); */
+}
+.AboutMe {
+  padding: 2.5em 3em 2em 3em;
+}
+.AboutMe .Heading {
+  font-size: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed var(--hap-title-color);
+  color: var(--hap-title-color);
+}
+.AboutMe h1 {
+  margin: 0;
+  color: var(--hap-title-color);
+  font-size: 40px;
+}

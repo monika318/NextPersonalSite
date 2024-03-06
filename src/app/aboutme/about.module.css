@@ -1,0 +1,108 @@
+.homeContainer {
+  margin: 0;
+  margin-left: 200px;
+}
+.AboutMe {
+  padding: 2.5em 3em 2em 3em;
+}
+.AboutMe .Heading {
+  font-size: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed var(--hap-title-color);
+  color: var(--hap-title-color);
+}
+.AboutMe h1 {
+  margin: 0;
+  color: var(--hap-title-color);
+  font-size: 40px;
+}
+.intro {
+  color: var(--hap-body-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.LeftSection {
+  width: 60%;
+  margin-top: 3em;
+}
+.RightSection {
+  width: 35%;
+  margin-top: 3em;
+}
+.DownloadCV {
+  border: 2px solid var(--hap-title-color);
+  width: fit-content;
+  padding: 15px 20px;
+  color: var(--hap-title-color);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.DownloadCV:hover {
+  background-color: var(--hap-title-color);
+  border: 2px solid var(--hap-title-color);
+  width: fit-content;
+  padding: 15px 20px;
+  color: var(--hap-color);
+  font-weight: 900;
+}
+.underline {
+  text-decoration: underline;
+  text-decoration-color: var(--hap-title-color);
+  text-underline-offset: 5px;
+}
+
+/* Service */
+.Services {
+  margin-top: 4em;
+  text-align: center;
+}
+.Services h2 {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1em;
+  color: var(--hap-body-color);
+  letter-spacing: 0.5px;
+  position: relative;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-bottom: 2px solid var(--hap-title-color);
+}
+.Services h2:before {
+  left: 0;
+}
+.Services h2:after {
+  right: 0;
+}
+.Services h2:before,
+.Services h2:after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 5px;
+  background-color: var(--hap-title-color);
+  bottom: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .intro {
+    flex-direction: column;
+  }
+  .LeftSection {
+    width: 80%;
+  }
+  .RightSection {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .LeftSection {
+    width: 90%;
+  }
+  .RightSection {
+    width: 90%;
+  }
+}
