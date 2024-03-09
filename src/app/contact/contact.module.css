@@ -149,7 +149,7 @@
   color: var(--hap-title-color);
   text-decoration: none;
 }
-.row3 a a {
+.row3 a span {
   font-size: 15px;
   text-decoration: none;
 }

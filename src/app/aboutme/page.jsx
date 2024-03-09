@@ -4,6 +4,12 @@ import styles from './about.module.css'
 import { BsPerson } from 'react-icons/bs'
 
 const Aboutme = () => {
+    const handleDownload = () => {
+        // Construct the download link
+        const downloadLink = "https://drive.google.com/file/d/1tsoc9tgMyRehIplpTa4EJH_gemJFjcV1/view?usp=sharing";
+        // Open the link in a new window
+        window.open(downloadLink, '_blank');
+    };
     return (
         <div className={styles.homeContainer}>
             <div className={styles.AboutMe}>
@@ -24,7 +30,7 @@ const Aboutme = () => {
                         <p><span className={styles.underline}>Address </span> : Kathmandu, Nepal</p>
                         <p><span className={styles.underline}>Email </span> : monikashakyaofficial@gmail.com</p>
                         <p><span className={styles.underline}>Phone </span> : +977 9861352576</p>
-                        <div className={styles.DownloadCV} >
+                        <div className={styles.DownloadCV} onClick={handleDownload}>
                             Download Resume
                         </div>
                     </div>
