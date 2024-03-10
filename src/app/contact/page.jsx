@@ -116,7 +116,7 @@ const Contact = () => {
                 <div className={styles.row3}>
                     <a className={styles.item} href="mailto:monikashakyaofficial@gmail.com">
                         <FaPaperPlane />
-                        <span>monikashakya1234@gmail.com</span>
+                        <span>monikashakyaofficial@gmail.com</span>
                     </a>
                     <a className={styles.item} href="mailto:monikashakyaofficial@gmail.com">
                         <FaMapMarkerAlt />
