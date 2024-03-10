@@ -6,9 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Monika Shakya",
   description: "A Computer Engineer, Web and Data enthusiat",
-  // icons: {
-  //   icon: '/favicon.ico', // /public path
-  // },
+  icons: [{ rel: 'icon', url: '/public/favicon.ico' }],
 };
 
 export default function RootLayout({

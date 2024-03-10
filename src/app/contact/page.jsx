@@ -114,15 +114,15 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className={styles.row3}>
-                    <a className={styles.item} href="mailto:monikashakya1234@gmail.com">
+                    <a className={styles.item} href="mailto:monikashakyaofficial@gmail.com">
                         <FaPaperPlane />
                         <span>monikashakya1234@gmail.com</span>
                     </a>
-                    <a className={styles.item} href="mailto:monikashakya1234@gmail.com">
+                    <a className={styles.item} href="mailto:monikashakyaofficial@gmail.com">
                         <FaMapMarkerAlt />
                         <span>Lagan, Kathmandu, Nepal</span>
                     </a>
-                    <a className={styles.item} href="mailto:monikashakya1234@gmail.com">
+                    <a className={styles.item} href="tel:+9779861362576">
                         <FaPhoneAlt />
                         <span>+977 9861352576</span>
                     </a>
