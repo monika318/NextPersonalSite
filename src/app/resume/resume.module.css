@@ -19,3 +19,45 @@
   color: var(--hap-title-color);
   font-size: 40px;
 }
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.LeftSection,
+.RightSection {
+  width: 50%;
+}
+/* .LeftSection,
+.RightSection {
+  width: 40%;
+  margin-top: 4em;
+  text-align: center;
+}
+.LeftSection h2 {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1em;
+  color: var(--hap-body-color);
+  letter-spacing: 0.5px;
+  position: relative;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-bottom: 2px solid var(--hap-title-color);
+}
+.LeftSection h2:before {
+  left: 0;
+}
+.LeftSection h2:after {
+  right: 0;
+}
+.LeftSection h2:before,
+.LeftSection h2:after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 5px;
+  background-color: var(--hap-title-color);
+  bottom: 0;
+} */
