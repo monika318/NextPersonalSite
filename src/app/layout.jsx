@@ -1,7 +1,9 @@
-import { Inter } from "next/font/google";
+import { Inter, Playfair } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/navbar";
 const inter = Inter({ subsets: ["latin"] });
+const playfair = Playfair({ subsets: ["latin"], variable: '--font-Play-mono', });
+
 
 export const metadata = {
   title: "Monika Shakya",
@@ -16,8 +18,9 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel='icon' href='/favicon.ico' />
+
       </head>
-      <body className={inter.className}>
+      <body className={`${inter.className} ${playfair.variable}`}>
         <Navbar />
         {children}
       </body>

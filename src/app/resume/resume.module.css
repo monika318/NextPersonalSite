@@ -19,45 +19,215 @@
   color: var(--hap-title-color);
   font-size: 40px;
 }
-.container {
+.Resumecontainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
-.LeftSection,
-.RightSection {
+.Resumecontainer .LeftSection,
+.Resumecontainer .RightSection {
   width: 50%;
+  display: flex;
+  flex-direction: column;
 }
-/* .LeftSection,
-.RightSection {
-  width: 40%;
-  margin-top: 4em;
+/* Service */
+.TextWithUnderline {
   text-align: center;
 }
-.LeftSection h2 {
+.TextWithUnderline .Heading2 {
   display: inline-block;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 26px;
+  font-weight: 800;
+  font-family: var(--heading-font-family);
   line-height: 1em;
-  color: var(--hap-body-color);
-  letter-spacing: 0.5px;
+  color: black;
   position: relative;
+
   text-transform: uppercase;
   padding: 5px 10px;
   border-bottom: 2px solid var(--hap-title-color);
 }
-.LeftSection h2:before {
+.TextWithUnderline .Heading2:before {
   left: 0;
 }
-.LeftSection h2:after {
+.TextWithUnderline .Heading2:after {
   right: 0;
 }
-.LeftSection h2:before,
-.LeftSection h2:after {
+.TextWithUnderline .Heading2:before,
+.TextWithUnderline .Heading2:after {
   position: absolute;
   content: "";
   width: 2px;
   height: 5px;
   background-color: var(--hap-title-color);
   bottom: 0;
-} */
+}
+
+/* TimeLine */
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 0;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  background-color: #800080;
+  top: 0;
+  bottom: 0;
+  left: 10%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+
+  position: relative;
+  width: 70%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: -15px;
+  background-color: white;
+  border: 4px solid #800080;
+  top: 22px;
+  border-radius: 50%;
+  z-index: 1;
+}
+/* Second circle styling */
+.secondCircle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: -16px;
+  background-color: white;
+  border: 4px solid #800080;
+  bottom: 22px; /* Adjust as needed */
+  border-radius: 50%;
+  z-index: 1;
+}
+/* Place the container to the right */
+.container {
+  left: 10.5%;
+}
+
+/* Add arrows to the right container (pointing left) */
+.container::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  /* background-color: rgba(128, 0, 128, 0.333); */
+  border: medium solid rgba(128, 0, 128, 0.333);
+  border-width: 10px 10px 10px 0;
+  border-color: transparent rgba(128, 0, 128, 0.333) transparent transparent;
+}
+/* Second arrow styling */
+.secondArrow {
+  content: " ";
+  height: 0;
+  position: absolute;
+  bottom: 22px; /* Adjust to match the second circle */
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid rgba(128, 0, 128, 0.333);
+  border-width: 10px 10px 10px 0;
+  border-color: transparent rgba(128, 0, 128, 0.333) transparent transparent;
+}
+/* Fix the circle for containers on the right side */
+.container::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(128, 0, 128, 0.333);
+  text-align: left;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+  /* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after,
+  .container::after {
+    left: 15px;
+  }
+
+  /* Make all right containers behave like the left ones */
+  .container {
+    left: 0%;
+  }
+}
+.content h2 {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-weight: 550;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--hap-body-color);
+  font-family: var(--heading-font-family);
+}
+.Role {
+  font-weight: 700;
+  font-size: 26px;
+  margin: 3px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: var(--font-Play-mono);
+}
+.Company {
+  margin: 3px 0;
+  font-size: 12px;
+  color: #800080;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+}
+.description {
+  font-size: 18px;
+  font-family: var(--font-Play-mono);
+  text-align: justify;
+}

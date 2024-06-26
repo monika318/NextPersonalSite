@@ -21,6 +21,7 @@
   --primary-font-family: "Jost", sans-serif;
   --heading-font-family: "Marcellus", serif;
   --secondary-font-family: "Cagliostro", sans-serif;
+  --role-font: "Playfair Display", serif;
 }
 body {
   margin: 0;
