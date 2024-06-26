@@ -32,6 +32,9 @@
   width: 35%;
   margin-top: 3em;
 }
+.LeftSection p {
+  text-align: justify;
+}
 .DownloadCV {
   border: 2px solid var(--hap-title-color);
   width: fit-content;

@@ -20,8 +20,8 @@ const Aboutme = () => {
                 <div className={styles.intro}>
                     <div className={styles.LeftSection}>
                         <h2>Computer Engineer <span style={{ fontFamily: 'Cagliostro' }}>&</span> Web Developer</h2>
-                        <p>Dolor reprehenderit aut repudiandae maiores recusandae. Consequatur dolor nisi labore commodi ipsa? Excepturi velit laboriosam at voluptatibus cupiditate est vel. Dolorem praesentium itaque fugiat placeat quas consequatur? Obcaecati natus rerum</p>
-                        <p>Consectetur consectetur nesciunt nesciunt blanditiis amet? Quod quis unde aliquid excepturi laudantium? Illo architecto aliquam velit illo magnam neque perferendis sint Incidunt eius ipsa inventore labore eos velit. Minus hic magni reiciendis necessitatibus ex Quidem officia deleniti accusamus obcaecati dolores. Porro culpa quibusdam impedit porro praesentium excepturi. Alias ab consequatur?</p>
+                        <p>Dedicated Computer Engineering graduate with a distinction in the Bachelor's degree. Demonstrated passion for technology through active participation in tech competitions, emphasizing commitment to practical problem-solving and innovation. Published a paper on Machine Learning in a local journal, showcasing enthusiasm for staying at the forefront of technological developments. </p>
+                        <p>Strong verbal and communication skills, honed through active involvement in clubs, enable effective communication in both technical and non-technical settings. Eager to contribute to cutting-edge projects in Computer Science and engineering, embracing challenges with enthusiasm, and leveraging passion and skills for meaningful team and project contributions.</p>
                     </div>
                     <div className={styles.RightSection}>
                         <h2>Personal Information</h2>
@@ -35,9 +35,9 @@ const Aboutme = () => {
                         </div>
                     </div>
                 </div>
-                <div className={styles.Services}>
+                {/* <div className={styles.Services}>
                     <h2>Services</h2>
-                </div>
+                </div> */}
             </div>
         </div>
     )
