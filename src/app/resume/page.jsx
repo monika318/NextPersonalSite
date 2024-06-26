@@ -10,12 +10,10 @@ const page = () => {
                     <h1>Resume.</h1>
                     <BsFillPostcardHeartFill />
                 </div>
-
-
             </div>
             <div classname={styles.container}>
                 <div className={styles.LeftSection}>hi</div>
-                <div className={styles.RightSection}>hi</div>
+
             </div>
         </div>
     )
