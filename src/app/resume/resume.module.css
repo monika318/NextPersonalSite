@@ -22,7 +22,7 @@
 .Resumecontainer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: row;
 }
 .Resumecontainer .LeftSection,
@@ -225,6 +225,10 @@
   font-weight: 500;
   letter-spacing: 0.25px;
   text-transform: uppercase;
+}
+.Company a {
+  text-decoration: none;
+  color: inherit;
 }
 .description {
   font-size: 18px;
