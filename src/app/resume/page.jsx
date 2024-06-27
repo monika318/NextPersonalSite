@@ -58,7 +58,7 @@ const page = () => {
                                     <h2>Ongoing</h2>
                                     <p className={styles.Role}>Masters of Data Science and Innovation</p>
                                     <p className={styles.Company}>University of Technology Sydney, NSW, Australia</p>
-                                    <p className={styles.description}>I am commencing my Master's degree in 2024 as a tech and data enthusiast, aiming to enhance my knowledge and gain hands-on experience in the field.</p>
+                                    <p className={styles.description}>I am commencing my Master&apos;s degree in 2024 as a tech and data enthusiast, aiming to enhance my knowledge and gain hands-on experience in the field.</p>
                                     <h2>August, 2024</h2>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@ const page = () => {
                                     <h2>August, 2023</h2>
                                     <p className={styles.Role}>Bachelor in Computer Engineering</p>
                                     <p className={styles.Company}>National College of Engineering, TU, Nepal</p>
-                                    <p className={styles.description}>I have completed my Bachelor's degree with an impressive percentage of 81.82%. During my academic journey, I actively participated in numerous club activities and engaged in various tech competitions, which enriched my educational experience and honed my skills.</p>
+                                    <p className={styles.description}>I have completed my Bachelor&apos;s degree with an impressive percentage of 81.82%. During my academic journey, I actively participated in numerous club activities and engaged in various tech competitions, which enriched my educational experience and honed my skills.</p>
                                     <h2>2018</h2>
                                 </div>
                             </div>

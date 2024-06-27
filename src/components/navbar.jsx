@@ -11,7 +11,7 @@ import Image from 'next/image'
 
 const Navbar = () => {
     return (
-        <div classname={styles.outerNavbar}>
+        <div className={styles.outerNavbar}>
             <div className={styles.innerNavbar}>
                 <div className={styles.imageDiv}>
                     <Image src="/Screenshot2.png" style={{ width: "auto", height: "auto" }} width={150} height={150} alt="img1" />
