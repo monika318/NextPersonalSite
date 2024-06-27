@@ -3,6 +3,7 @@
   /* width: 100vw; */
   height: 100vh;
   margin-left: 200px;
+  background-color: var(--body-bg-color);
 }
 
 .backgroundImage {

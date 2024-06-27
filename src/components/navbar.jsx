@@ -49,7 +49,7 @@ const Navbar = () => {
                         <a href='https://wa.me/+9779861352576'> <FaIcons.FaWhatsappSquare /></a>
                     </div>
 
-                    <p>Monika Shakya 2023</p>
+                    <p>Monika Shakya 2024</p>
                 </div>
             </div>
         </div>

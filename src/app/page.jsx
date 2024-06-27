@@ -17,7 +17,7 @@ export default function Home() {
     return () => clearInterval(interval);
   }, []);
 
-  const backdrops = ['/homebackdrop/Component47.png', '/homebackdrop/Component48.png', '/homebackdrop/Component49.png'];
+  const backdrops = ['/homebackdrop/Component51.png', '/homebackdrop/Component47.png', '/homebackdrop/Component48.png', '/homebackdrop/Component49.png', '/homebackdrop/Component50.png'];
 
   return (
     <div className={styles.homeContainer}>

@@ -1,6 +1,8 @@
 .homeContainer {
   margin: 0;
   margin-left: 200px;
+  /* background-color: #fbcdf467; */
+  background-color: var(--body-bg-color);
 }
 .AboutMe {
   padding: 2.5em 3em 2em 3em;
