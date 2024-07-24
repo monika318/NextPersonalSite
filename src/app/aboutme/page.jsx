@@ -6,7 +6,7 @@ import { BsPerson } from 'react-icons/bs'
 const Aboutme = () => {
     const handleDownload = () => {
         // Construct the download link
-        const downloadLink = "https://drive.google.com/file/d/1tsoc9tgMyRehIplpTa4EJH_gemJFjcV1/view?usp=sharing";
+        const downloadLink = "https://drive.google.com/file/d/102hXdm2Bv4-_r0vU9G0ewILOArnGZ1K_/view?usp=drive_link";
         // Open the link in a new window
         window.open(downloadLink, '_blank');
     };
@@ -26,10 +26,10 @@ const Aboutme = () => {
                     <div className={styles.RightSection}>
                         <h2>Personal Information</h2>
                         <p><span className={styles.underline}>Name </span> : Monika Shakya</p>
-                        <p><span className={styles.underline}>Age </span> : 23 Years</p>
-                        <p><span className={styles.underline}>Address </span> : Kathmandu, Nepal</p>
+                        <p><span className={styles.underline}>Age </span> : 24 Years</p>
+                        <p><span className={styles.underline}>Address </span> : Parramatta, Sydney, NSW, Australia</p>
                         <p><span className={styles.underline}>Email </span> : monikashakyaofficial@gmail.com</p>
-                        <p><span className={styles.underline}>Phone </span> : +977 9861352576</p>
+                        <p><span className={styles.underline}>Phone </span> : +61 425 181 313</p>
                         <div className={styles.DownloadCV} onClick={handleDownload}>
                             Download Resume
                         </div>

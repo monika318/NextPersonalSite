@@ -19,3 +19,54 @@
   color: var(--hap-title-color);
   font-size: 40px;
 }
+.PopularProjects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 5em;
+}
+.imagesContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.Project {
+  width: 45%;
+  height: 14em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 2em;
+  overflow: hidden;
+}
+.backgroundImage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.Project_overlay {
+  background: rgba(0, 0, 0, 0.587);
+  border-radius: 0 0 10px 10px;
+  bottom: 0;
+  color: #f1f1f1;
+  color: #fff;
+  font-size: 18px;
+  margin: 0 10px 0px;
+  opacity: 0;
+  padding: 18px;
+  position: absolute;
+  text-align: center;
+  transition: 0.5s ease;
+  width: 95%;
+}
+.Project_overlay span:hover {
+  text-decoration: underline;
+}
+.Project:hover .Project_overlay {
+  opacity: 1; /* Show the overlay on hover */
+}

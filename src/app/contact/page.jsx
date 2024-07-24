@@ -118,13 +118,13 @@ const Contact = () => {
                         <FaPaperPlane />
                         <span>monikashakyaofficial@gmail.com</span>
                     </a>
-                    <a className={styles.item} href="mailto:monikashakyaofficial@gmail.com">
+                    <a className={styles.item}>
                         <FaMapMarkerAlt />
-                        <span>Lagan, Kathmandu, Nepal</span>
+                        <span>Sydney, NSW, Australia</span>
                     </a>
-                    <a className={styles.item} href="tel:+9779861362576">
+                    <a className={styles.item} href="tel:+61425181313">
                         <FaPhoneAlt />
-                        <span>+977 9861352576</span>
+                        <span>+61 425 181 313</span>
                     </a>
                 </div>
             </div>
