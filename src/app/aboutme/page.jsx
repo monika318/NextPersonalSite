@@ -2,6 +2,7 @@
 import React from 'react'
 import styles from './about.module.css'
 import { BsPerson } from 'react-icons/bs'
+import { FaPaperPlane, FaMapMarkerAlt, FaPhoneAlt, FaRegEnvelope } from "react-icons/fa";
 
 const Aboutme = () => {
     const handleDownload = () => {
@@ -35,9 +36,24 @@ const Aboutme = () => {
                         </div>
                     </div>
                 </div>
+
                 {/* <div className={styles.Services}>
                     <h2>Services</h2>
                 </div> */}
+            </div>
+            <div className={styles.row3}>
+                <a className={styles.item} href="mailto:monikashakyaofficial@gmail.com">
+                    <FaPaperPlane />
+                    <span>monikashakyaofficial@gmail.com</span>
+                </a>
+                <a className={styles.item}>
+                    <FaMapMarkerAlt />
+                    <span>Sydney, NSW, Australia</span>
+                </a>
+                <a className={styles.item} href="tel:+61425181313">
+                    <FaPhoneAlt />
+                    <span>+61 425 181 313</span>
+                </a>
             </div>
         </div>
     )

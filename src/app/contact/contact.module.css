@@ -103,7 +103,7 @@
 .inputSpan input:focus,
 .inputSpan textarea:focus {
   outline: 0;
-  border: 2px solid var(--hap-color);
+  border: 2px solid white;
 }
 .DownloadCV {
   border: 2px solid var(--hap-title-color);

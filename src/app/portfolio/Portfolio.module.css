@@ -50,7 +50,7 @@
   height: 100%;
 }
 .Project_overlay {
-  background: rgba(0, 0, 0, 0.587);
+  background: #00a1e194;
   border-radius: 0 0 10px 10px;
   bottom: 0;
   color: #f1f1f1;

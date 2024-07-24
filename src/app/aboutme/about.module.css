@@ -113,3 +113,36 @@
     width: 90%;
   }
 }
+.row3 {
+  margin-top: 4em;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+}
+.row3 a {
+  width: 30%;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 1em;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: var(--hap-title-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  text-decoration: none;
+}
+.item a i {
+  font-size: 30px;
+  color: var(--hap-title-color);
+  text-decoration: none;
+}
+.row3 a span {
+  font-size: 15px;
+  text-decoration: none;
+}

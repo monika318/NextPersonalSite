@@ -30,13 +30,13 @@ export default function Home() {
             preRenderFirstString={true}
             sequence={[
               500,
-              'I am Computer Engineer', // initially rendered starting point
+              'I am a Computer Engineer', // initially rendered starting point
               1000,
-              'I am Web Developer',
+              'I am a Web Developer',
               1000,
-              'I am Data Enthusiast',
+              'I am a Data Enthusiast',
               1000,
-              'I am UI/UX Designer',
+              'I am a UI/UX Designer',
               500,
             ]}
             speed={50}

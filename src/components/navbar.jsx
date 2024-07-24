@@ -14,14 +14,13 @@ const Navbar = () => {
         <div className={styles.outerNavbar}>
             <div className={styles.innerNavbar}>
                 <div className={styles.imageDiv}>
-                    <Image src="/Screenshot2.png" style={{ width: "auto", height: "auto" }} width={150} height={150} alt="img1" />
+                    <Image src="/MonikaImage.png" style={{ width: "auto", height: "15em" }} width={150} height={150} alt="img1" />
                     <div className={styles.name}>
                         <p>Monika shakya</p>
                     </div>
                 </div>
                 <div className={styles.textDiv}>
                     <div className={styles.navitem}>
-
                         <Link href='/'> <BiIcons.BiHome />Home</Link>
                     </div>
                     <div className={styles.navitem}>

@@ -41,9 +41,8 @@
   font-weight: 800;
   font-family: var(--heading-font-family);
   line-height: 1em;
-  color: black;
+  color: white;
   position: relative;
-
   text-transform: uppercase;
   padding: 5px 10px;
   border-bottom: 2px solid var(--hap-title-color);
@@ -77,7 +76,7 @@
   content: "";
   position: absolute;
   width: 5px;
-  background-color: #800080;
+  background-color: var(--hap-title-color);
   top: 0;
   bottom: 0;
   left: 10%;
@@ -99,8 +98,8 @@
   width: 15px;
   height: 15px;
   right: -15px;
-  background-color: white;
-  border: 4px solid #800080;
+  background-color: var(--body-bg-color);
+  border: 4px solid var(--hap-title-color);
   top: 22px;
   border-radius: 50%;
   z-index: 1;
@@ -111,8 +110,8 @@
   width: 15px;
   height: 15px;
   left: -16px;
-  background-color: white;
-  border: 4px solid #800080;
+  background-color: var(--body-bg-color);
+  border: 4px solid var(--hap-title-color);
   bottom: 22px; /* Adjust as needed */
   border-radius: 50%;
   z-index: 1;
@@ -131,10 +130,11 @@
   width: 0;
   z-index: 1;
   left: 30px;
-  /* background-color: rgba(128, 0, 128, 0.333); */
-  border: medium solid rgba(128, 0, 128, 0.333);
+  /* background-color: 
+rgba(0,163,225,255); */
+  border: medium solid rgba(0, 163, 225, 255);
   border-width: 10px 10px 10px 0;
-  border-color: transparent rgba(128, 0, 128, 0.333) transparent transparent;
+  border-color: transparent rgba(0, 163, 225, 255) transparent transparent;
 }
 /* Second arrow styling */
 .secondArrow {
@@ -145,9 +145,9 @@
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid rgba(128, 0, 128, 0.333);
+  border: medium solid rgba(0, 161, 225, 0.813);
   border-width: 10px 10px 10px 0;
-  border-color: transparent rgba(128, 0, 128, 0.333) transparent transparent;
+  border-color: transparent rgba(0, 163, 225, 255) transparent transparent;
 }
 /* Fix the circle for containers on the right side */
 .container::after {
@@ -159,10 +159,13 @@
   padding: 20px 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: rgba(128, 0, 128, 0.333);
+  /* background-color: var(--hap-title-color); */
+  border: 1px solid var(--hap-title-color);
+
   text-align: left;
   position: relative;
   border-radius: 6px;
+  color: white;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -221,7 +224,7 @@
 .Company {
   margin: 3px 0;
   font-size: 12px;
-  color: #800080;
+  color: var(--hap-title-color);
   font-weight: 500;
   letter-spacing: 0.25px;
   text-transform: uppercase;

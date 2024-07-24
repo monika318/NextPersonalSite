@@ -28,7 +28,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: rgba(128, 0, 128, 0.333);
+  background-color: #00a1e19b;
   width: 100%;
   color: white;
 }
@@ -68,7 +68,10 @@
   gap: 5px;
 }
 .navitem:hover {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--hap-title-color);
+}
+.navitem:hover a {
+  color: var(--hap-title-color); /* Change this to the desired color */
 }
 .textDiv a {
   color: #777;
@@ -91,7 +94,7 @@
   color: inherit;
 }
 .socialDiv div a:hover {
-  color: white;
+  color: #00a3e1;
 }
 .socialDiv p {
   font-size: 12px;
