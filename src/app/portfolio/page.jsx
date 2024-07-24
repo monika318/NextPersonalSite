@@ -36,7 +36,7 @@ export default function Page() {
                                 priority
                             />
                             <div className={styles.Project_overlay}>
-                                <span>Murphy's Technology</span>
+                                <span>Murphy&apos;s Technology</span>
                             </div>
                         </div>
                         <div className={styles.Project} onClick={() => window.open("https://mommybearcleaning.com.au", "_blank")}>

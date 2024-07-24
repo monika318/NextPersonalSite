@@ -29,7 +29,7 @@ const Aboutme = () => {
                         <p><span className={styles.underline}>Age </span> : 24 Years</p>
                         <p><span className={styles.underline}>Address </span> : Parramatta, Sydney, NSW, Australia</p>
                         <p><span className={styles.underline}>Email </span> : monikashakyaofficial@gmail.com</p>
-                        <p><span className={styles.underline}>Phone </span> : +61 425 181 313</p>
+                        <p><span className={styles.underline}>Phone </span> : +61 425 181 313 </p>
                         <div className={styles.DownloadCV} onClick={handleDownload}>
                             Download Resume
                         </div>
