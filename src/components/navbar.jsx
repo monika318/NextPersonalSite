@@ -59,7 +59,7 @@ const Navbar = () => {
             </div>
             <div className={styles.TopNavbar}>
                 <div className={styles.TopNavItem}>
-                    <Link href='/' className={styles.Heading}>Monika Shakya</Link>
+                    <Link href='/' className={styles.Heading}>Home</Link>
                 </div>
                 <div className={styles.TopNavItem}>
                     <FaIcons.FaBars className={styles.bar} onClick={() => setSidebar(!sidebar)} />
