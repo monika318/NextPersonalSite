@@ -154,3 +154,9 @@
   font-size: 15px;
   text-decoration: none;
 }
+@media only screen and (max-width: 1225px) {
+  .homeContainer {
+    margin-left: 0;
+    padding-top: 5em;
+  }
+}

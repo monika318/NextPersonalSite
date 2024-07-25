@@ -15,10 +15,11 @@ export default function Page() {
                     <h1>Portfolio.</h1>
                     <PiSuitcaseSimpleFill />
                 </div>
+                <div className={styles.Services}>
+                    <h2>Click To View Site</h2>
+                </div>
                 <div className={styles.PopularProjects}>
                     <div className={styles.imagesContainer}>
-
-
                         <div className={styles.Project} onClick={() => window.open("https://murphystechnology.com.au/", "_blank")} >
                             {/* <p>hi</p> */}
                             <Image
@@ -31,8 +32,6 @@ export default function Page() {
                                 src={backdrops[2]}
                                 alt="Backdrop"
                                 layout="fill"
-                                objectFit="cover"
-
                                 priority
                             />
                             <div className={styles.Project_overlay}>
@@ -51,7 +50,7 @@ export default function Page() {
                                 src={backdrops[1]}
                                 alt="Backdrop"
                                 layout="fill"
-                                objectFit="cover"
+
 
                                 priority
                             />
@@ -71,7 +70,7 @@ export default function Page() {
                                 src={backdrops[3]}
                                 alt="Backdrop"
                                 layout="fill"
-                                objectFit="cover"
+
                                 priority
                             />
                             <div className={styles.Project_overlay}>
@@ -90,7 +89,7 @@ export default function Page() {
                                 src={backdrops[4]}
                                 alt="Backdrop"
                                 layout="fill"
-                                objectFit="cover"
+
 
                                 priority
                             />
@@ -110,7 +109,7 @@ export default function Page() {
                                 src={backdrops[0]}
                                 alt="Backdrop"
                                 layout="fill"
-                                objectFit="cover"
+
                                 priority
                             />
                             <div className={styles.Project_overlay}>

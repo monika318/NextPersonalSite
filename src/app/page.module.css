@@ -48,3 +48,8 @@
 .pink-text {
   color: pink;
 }
+@media only screen and (max-width: 1225px) {
+  .homeContainer {
+    margin-left: 0px;
+  }
+}

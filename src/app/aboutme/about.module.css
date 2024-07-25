@@ -3,6 +3,7 @@
   margin-left: 200px;
   /* background-color: #fbcdf467; */
   background-color: var(--body-bg-color);
+  overflow-y: scroll;
 }
 .AboutMe {
   padding: 2.5em 3em 2em 3em;
@@ -93,7 +94,12 @@
   background-color: var(--hap-title-color);
   bottom: 0;
 }
-
+@media only screen and (max-width: 1225px) {
+  .homeContainer {
+    margin-left: 0;
+    padding-top: 5em;
+  }
+}
 @media only screen and (max-width: 1000px) {
   .intro {
     flex-direction: column;
@@ -145,4 +151,9 @@
 .row3 a span {
   font-size: 15px;
   text-decoration: none;
+}
+@media only screen and (max-width: 720px) {
+  .row3 {
+    flex-direction: column;
+  }
 }

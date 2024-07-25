@@ -24,7 +24,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-top: 5em;
+  margin-top: 1em;
 }
 .imagesContainer {
   display: flex;
@@ -48,6 +48,7 @@
   position: relative;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .Project_overlay {
   background: #00a1e194;
@@ -69,4 +70,77 @@
 }
 .Project:hover .Project_overlay {
   opacity: 1; /* Show the overlay on hover */
+}
+@media only screen and (max-width: 1225px) {
+  .homeContainer {
+    margin-left: 0;
+    padding-top: 5em;
+  }
+  .Project {
+    height: 16em;
+  }
+}
+@media only screen and (max-width: 1220px) {
+  .imagesContainer {
+    flex-direction: column;
+  }
+  .Project {
+    width: 70%;
+    /* height: 25em; */
+  }
+  .backgroundImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    /* height: auto; */
+    object-fit: contain;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .Project {
+    width: 100%;
+    /* height: 20em; */
+    margin-top: 5px;
+  }
+  .backgroundImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    /* height: auto; */
+    object-fit: contain;
+  }
+}
+.Services {
+  margin-top: 2em;
+  text-align: center;
+  width: 100%;
+}
+.Services h2 {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1em;
+  color: var(--hap-body-color);
+  letter-spacing: 0.5px;
+  position: relative;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-bottom: 2px solid var(--hap-title-color);
+}
+.Services h2:before {
+  left: 0;
+}
+.Services h2:after {
+  right: 0;
+}
+.Services h2:before,
+.Services h2:after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 5px;
+  background-color: var(--hap-title-color);
+  bottom: 0;
 }
