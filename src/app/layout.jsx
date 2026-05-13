@@ -1,12 +1,8 @@
-import { Inter, Playfair } from "next/font/google";
 import "./globals.css";
-const inter = Inter({ subsets: ["latin"] });
-const playfair = Playfair({ subsets: ["latin"], variable: "--font-Play-mono" });
 
 export const metadata = {
   title: "Monika Shakya",
-  description: "A Computer Engineer, Web and Data enthusiat",
-  icons: [{ rel: "icon", url: "/public/favicon.ico" }],
+  description: "A Computer Engineer, Web and Data enthusiast",
 };
 
 export default function RootLayout({ children }) {
@@ -15,9 +11,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className={`${inter.className} ${playfair.variable}`}>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
